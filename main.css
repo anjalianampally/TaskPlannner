@@ -1,0 +1,116 @@
+/*   1602-17-737-320  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: darkgray;
+    
+}
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: white;
+}
+.styling{
+    font-weight: 800;
+    color: white;
+}
+.first{
+    color:navy;
+}
+.sec{
+    color:green;
+    margin-top:0.5rem;
+}
+.thi{
+    color: skyblue;
+    margin-top: 0.5rem;
+    
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:2rem;
+}
+.input_div .input{
+    padding:0.5rem 1rem;
+    height:40px;
+    outline: none;
+    border:none;
+    background-color: #fff;
+    width: 600px;
+    font-size:1.15rem;
+    margin:0.25rem;
+    border-radius: 6px;
+}
+.input_div:focus {
+    background-color:lightgreen;
+}
+.texts{
+    text-align: center;
+    
+}
+.addButton{
+    height: 40px;
+    width: 60px;
+    border-radius: 6px;
+    outline: none;
+    border:none;
+    background-color: #fff;
+    color: #fff;
+    margin: 0.25rem;
+    background-color: #73636f;
+    cursor: pointer;
+}
+.addButton:hover{
+    opicity:0.7;
+}
+.spaceing{
+    margin-top:2rem;
+}
+.container{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    padding: 0.5rem;
+    border-bottom: 4px;
+}
+.item_input{
+    margin:0.25rem;
+    border-style: solid;
+    border-color: black;
+    border-radius: 6px;
+    padding:0.5rem 1rem;
+    background: cyan;
+    outline: none;
+    color:white;
+    height: 40px;
+    border:none;
+    width:500px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.removeButton{
+    border-radius: 6px;
+    height: 40px;
+    width: 50px;
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    background: cyan;
+    outline:none;
+    color:black;
+    border:none;
+    cursor: pointer;
+    
+}
